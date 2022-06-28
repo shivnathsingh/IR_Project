@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Disease Predictor</title>
+    <script src="https://kit.fontawesome.com/63d7d083ee.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+<div class="header">
+<h1 class="titleHead">Disease Predictor</h1>
+</div> 
+<!-- form starts from here  -->
+<div class= "divForm" >
+<form action="/predict" class="myForm" method="post">
+    <label for="userName" class="textClass1">User Name</label><br>
+    
+    <input type="text" name="text1" id="text1">
+    <div><br></div>
+    <label for="sym" class= "textClass" >Enter the Symptoms ( comma seperated )</label><br>
+    <input type="text2" name="text2" id="text2">
+    <div><br></div>
+  <label for="med" class= "textClass2" >Enter the Medical History( comma seperated)</label><br>
+    <h2 class="shortText">Please select the diseases from : [ Asthma, Diabetes,Cancer,Diabetes,Anaemia,Appendicitis ] (enter none if not have any)</h2>
+    <input type="text3" name="text3" id="text3">
+    <div><br></div>
+    <button type="submit" value="Predict Disease"  class="buttonClass" >Predict Disease</button>
+</form> 
+<div><i class="rose fa-solid fa-suitcase-medical"></i></div>
+
+
+
+</div>
+
+</body>
+</html>
+
